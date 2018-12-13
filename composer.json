@@ -1,0 +1,24 @@
+{
+    "name": "mikek8/yii2-console-target",
+    "description": "Beautiful output logs to the console",
+    "type": "library",
+    "keywords": [
+        "yii2"
+    ],
+    "require": {
+        "php": "^7.1",
+        "yiisoft/yii2": "^2.0.13"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mikhail Ekaterinichev",
+            "email": "mik-ek8944@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mikek8\\log\\": "./"
+        }
+    }
+}
