@@ -6,7 +6,7 @@
  * Time: 14:08
  */
 
-namespace app\components\log;
+namespace mikek8\log;
 
 use yii\helpers\VarDumper;
 use yii\log\Logger;
