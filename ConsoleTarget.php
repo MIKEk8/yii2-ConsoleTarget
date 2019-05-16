@@ -97,7 +97,7 @@ class ConsoleTarget extends Target
             $matched = empty($categories);
             foreach ($categories as $category) {
                 if (
-                    $message[2] === $category ||
+                    $message[2] === $category || $category === '*' ||
                     (!empty($category) &&
                         substr_compare($category, '*', -1, 1) === 0 &&
                         strpos($message[2], rtrim($category, '*')) === 0)
